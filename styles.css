@@ -89,9 +89,6 @@
     unicode-range: U+0-10FFFF;
 }
 
-html{
-    font-size: calc(100vw / 1519.2);
-}
 
 div{
     display: block;
@@ -104,10 +101,10 @@ body{
 }
 
 .header-div{
-    width:1100rem;
+    width:1100px;
     height: 100%;
-    margin-left: 209.6rem;
-    margin-right: 209.6rem;
+    margin-left: 209.6px;
+    margin-right: 209.6px;
     align-items: center;
     display: flex;
     justify-content:space-between;
@@ -117,7 +114,7 @@ body{
     width: 100%;
     max-width: 100%;
     position: absolute;
-    height: 72rem;
+    height: 72px;
     top: 0;
     background-color:transparent;
 }
@@ -125,7 +122,7 @@ body{
 .get-the-app{
     height: 100%;
     width:fit-content;
-    font-size: 14rem;
+    font-size: 14px;
     font-weight: 500;
     align-items: center;
     vertical-align:middle;
@@ -140,9 +137,9 @@ body{
 }
 
 .header-items{
-    font-size: 18rem;
-    margin: 8rem;
-    margin-right: 20rem;
+    font-size: 18px;
+    margin: 8px;
+    margin-right: 20px;
     font-weight: 300;
     color: white;
     width: fit-content;
@@ -152,8 +149,8 @@ body{
 
 .head-section{
     width: 100%;
-    height: 492rem;
-    margin-bottom: 40rem;
+    height: 492px;
+    margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -169,106 +166,106 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 222rem;
+    height: 222px;
     width: 100%;
 }
 
 .main-logo{
-    height: 60rem;
-    width: 300rem;
+    height: 60px;
+    width: 300px;
     opacity: 1;
     object-fit: contain;
 }
 
 .description{
     text-align: center;
-    font-size: 38.6rem;
+    font-size: 38.6px;
     color: white;
     font-weight: 200;
 }
 
 .thrissur{
     font-weight: 500;
-    font-size: 40rem;
+    font-size: 40px;
 }
 
 .search-container{
-    height: 54rem;
-    width: 773.6rem;
-    border-radius: 9rem;
-    margin-top: 3rem;
+    height: 54px;
+    width: 773.6px;
+    border-radius: 9px;
+    margin-top: 3px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 10rem;
+    padding-left: 10px;
 }
 
 .search-container-bar{
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 0;
-    height: 20rem;
+    height: 20px;
     border-color: rgba(102, 101, 101, 0.364);
     border-style: solid;
-    border-width: 0.05rem;
+    border-width: 0.05px;
 }
 
 .search-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30rem;
+    width: 30px;
 }
 
 .search-bar{
     width: 100%;
-    margin-left: 10rem;
+    margin-left: 10px;
     border: none;
-    font-size: 16rem;
-    word-spacing: .5rem;
+    font-size: 16px;
+    word-spacing: .5px;
 }
 
 .body-section{
     /* max-width: 110rem; */
-    height: 1232rem;
+    height: 1232px;
     width: auto;
     position: relative;
-    margin-left: 209.600rem;
-    margin-right: 209.600rem;
-    margin-bottom: 100rem;
+    margin-left: 209.600px;
+    margin-right: 209.600px;
+    margin-bottom: 100px;
 }
 
 .order-types{
-    margin-bottom: 60rem;
-    width: 1100rem;
-    height: 260rem;
+    margin-bottom: 60px;
+    width: 1100px;
+    height: 260px;
 }
 
 .inner-order-types{
-    margin: 0rem;
-    padding: 0rem;
-    border: 0rem;
-    height: 260rem;
-    width: 1100rem;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 260px;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .online-orders{
-    width: 540rem;
-    height: 240rem;
-    padding-right: 10rem;
-    padding-bottom: 20rem;
+    width: 540px;
+    height: 240px;
+    padding-right: 10px;
+    padding-bottom: 20px;
     background-color: white;
 }
 
 .order-type-image-div{
-    height: 156rem;
+    height: 156px;
     width: 100%;
-    border-top-right-radius: 12rem;
-    border-top-left-radius: 12rem;
-    border-width: 1rem;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-width: 1px;
     border-style: solid;
     border-color: rgb(232, 232, 232);
 }
@@ -276,33 +273,33 @@ body{
 .order-type-image{
     height: 100%;
     width: 100%;
-    border-top-right-radius: 12rem;
-    border-top-left-radius: 12rem;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
     object-fit: cover;
 }
 
 .order-type-description{
-    border-bottom-right-radius: 25rem;
-    border-bottom-left-radius: 25rem;
-    border-width: 1rem;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-width: 1px;
     border-style: solid;
     border-color: rgb(232, 232, 232);
-    padding-top: 10rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    padding-bottom: 16rem;
-    height: 56rem;
-    width: 498rem;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    height: 56px;
+    width: 498px;
 }
 
 .order-type-title{
     color: rgb(54, 54, 54);
     margin: 0;
-    font-size: 20rem;
+    font-size: 20px;
     text-align: left;
     text-decoration: none;
     text-decoration: solid;
-    line-height: 32rem;
+    line-height: 32px;
     font-weight: 500;
 }
 
@@ -314,20 +311,20 @@ body{
 }
 
 .dining-orders{
-    width: 540rem;
-    height: 240rem;
-    padding-left: 10rem;
-    padding-bottom: 20rem;
+    width: 540px;
+    height: 240px;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 .collection{
-    height: 432.4rem;
+    height: 432.4px;
     width: 100%;
-    margin-bottom: 100rem;
+    margin-bottom: 100px;
 }
 
 .collection-head{
-    height: 72.4rem;
+    height: 72.4px;
     width: 100%;
 }
 
@@ -340,7 +337,7 @@ body{
 
 .collection-sub-sec{
     margin: 0;
-    margin-top: 4rem;
+    margin-top: 4px;
     display: flex;
     justify-content: space-between;
 }
@@ -349,24 +346,24 @@ body{
     line-height: 1.4;
     font-weight:lighter;
     color: rgb(54, 54, 54);
-    font-size: 18rem;
+    font-size: 18px;
     margin: 0;
     font-family: Okra, Helvetica, sans-serif;
 }
 
 .collection-items{
-    margin-top: 30rem;
-    height: 330rem;
+    margin-top: 30px;
+    height: 330px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .breakfasts-outer{
-    height: 320rem;
-    width: 270rem;
-    padding-bottom: 10rem;
-    padding-right: 5rem;
+    height: 320px;
+    width: 270px;
+    padding-bottom: 10px;
+    padding-right: 5px;
 }
 
 .breakfasts{
@@ -375,14 +372,14 @@ body{
     background: url("/images/breakfast-background.webp");
     background-size: cover;
     background-position: center;
-    border-radius: 8rem;
+    border-radius: 8px;
 }
 
 .biriyanis-outer{
-    height: 320rem;
-    width: 270rem;
-    padding-bottom: 10rem;
-    padding-left: 5rem;
+    height: 320px;
+    width: 270px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 .biriyanis{
@@ -391,67 +388,67 @@ body{
     background: url("/images/biriyani-background.webp");
     background-size: cover;
     background-position: center;
-    border-radius: 8rem;
+    border-radius: 8px;
 }
 
 .collections-discription{
-    height: 56.8rem;
+    height: 56.8px;
     width: 100%;
     position: relative;
-    bottom: 0rem;
-    top: 263rem;
-    
+    bottom: 0px;
+    top: 263px;
+
 }
 
 .collection-shade{
     height: 100%;
     width: 100%;
-    border-radius: 8rem;
+    border-radius: 8px;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
 }
 
 .collections-title{
-    padding-left: 16rem;
-    padding-right: 16rem;
+    padding-left: 16px;
+    padding-right: 16px;
     color: white;
-    font-size: 18rem;
+    font-size: 18px;
     margin: 0;
 }
 
 .collections-subtitle{
-    margin-top: 3rem;
-    margin-bottom: 10rem;
-    padding-left: 16rem;
-    padding-right: 16rem;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     display: flex;
     flex: wrap;
 }
 
 .popular-cities{
     width: 100%;
-    height: 380.2rem;
-    margin-bottom: 100rem;
+    height: 380.2px;
+    margin-bottom: 100px;
 }
 
 .cities-names-cards{
     width: 100%;
-    height: 297rem;
+    height: 297px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .cities-cards{
-    height: 53rem;
-    width: 324.663rem;
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
-    border-width: 1rem;
+    height: 53px;
+    width: 324.663px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-width: 1px;
     border-style: solid;
-    border-radius: 8rem;
+    border-radius: 8px;
     border-color: rgb(232, 232, 232);
-    box-shadow: rgb(28 28 28 / 8%) 0rem 1.42623rem 2.85246rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 1.42623px 2.85246px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -460,10 +457,10 @@ body{
 }
 
 .cities-name{
-    font-size: 20rem;
+    font-size: 20px;
     font-weight: 400;
     margin: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 5px;
     color:rgb(28, 28, 28)
 }
 
@@ -475,24 +472,24 @@ body{
 }
 
 .cities-card-description{
-    width: 289.6rem;
+    width: 289.6px;
     height: 100%;
 }
 
 .download-section{
     background-color: rgb(255, 251, 247);
     width: 100%;
-    height: 480rem;
+    height: 480px;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .zomato-app-screen{
-    margin-top: 30rem;
-    margin-left: 389.6rem;
-    margin-right: 30rem;
-    width: 250rem;
+    margin-top: 30px;
+    margin-left: 389.6px;
+    margin-right: 30px;
+    width: 250px;
     height: 100%;
 }
 
@@ -503,128 +500,128 @@ body{
 }
 
 .inner-download-section{
-    margin-top: 65rem;
-    margin-left: 20rem;
-    width: 450rem;
+    margin-top: 65px;
+    margin-left: 20px;
+    width: 450px;
     height: 100%;
 }
 
 .get-zomato-app{
     color: rgb(28, 28, 28);
-    margin-bottom: 15rem;
-    margin-top: 0rem;
-    margin-left: 0rem;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
     font-weight: 500;
-    font-size: 44rem;
-    line-height: 56rem
+    font-size: 44px;
+    line-height: 56px
 }
 
 .get-zomato-app-description{
-    margin: 0rem;
-    margin-bottom: 25rem;
-    line-height: 32rem;
+    margin: 0px;
+    margin-bottom: 25px;
+    line-height: 32px;
     color: rgb(54, 54, 54);
 }
 
 .radio-selector{
     width: 50%;
-    height: 40rem;
+    height: 40px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .radio-section{
     width: auto;
-    margin-bottom: 16rem;
+    margin-bottom: 16px;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 #email-radio{
-    margin-left: 48rem;
+    margin-left: 48px;
 }
 
 .radio{
-    size: 117rem;
-    height: 22rem;
-    width: 22rem;
+    size: 117px;
+    height: 22px;
+    width: 22px;
     accent-color: rgb(239, 79, 95);
 }
 
 .email-typing-get-app{
-    height: 63rem;
+    height: 63px;
     width: 100%;
-    margin-bottom: 10rem;
+    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .email-typing-input{
-    width: 292rem;
-    height: 48rem;
-    border-radius: 6rem;
-    border-width: 1.5rem;
+    width: 292px;
+    height: 48px;
+    border-radius: 6px;
+    border-width: 1.5px;
     border-color: rgb(224, 53, 70);
     border-style: solid;
     outline: none;
     box-sizing: border-box;
-    padding-top: 13rem;
-    padding-bottom: 13rem;
-    padding-left: 12rem;
-    padding-right: 13rem;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+    padding-right: 13px;
     color: rgb(28, 28, 28);
 }
 
 .share-app-link-button{
     display: block;
-    margin-left: 8rem;
-    width: 150rem;
-    height: 48rem;
+    margin-left: 8px;
+    width: 150px;
+    height: 48px;
     background-color: rgb(239, 79, 95);
     border-color: rgb(239, 79, 95);
-    border-radius: 6rem;
+    border-radius: 6px;
     border-style: solid;
 }
 
 .appstore-links{
     height: auto;
-    width: 450rem;
+    width: 450px;
     display: flex;
 }
 
 .explore-options{
     background: rgb(252, 252, 252);
-    padding-left: 209.6rem;
-    padding-right: 209.6rem;
-    padding-top: 50rem;
-    padding-bottom: 50rem;
+    padding-left: 209.6px;
+    padding-right: 209.6px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: auto;
-    height: 304rem;
+    height: 304px;
 }
 
 .explore-title{
-    margin:0rem;
-    margin-bottom: 20rem;
+    margin:0px;
+    margin-bottom: 20px;
     color: rgb(54, 54, 54);
-    font-size: 30rem;
-    line-height: 40rem;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 500;
 }
 
 .explore-tabs{
-    width: 1050rem;
-    height: 26rem;
-    margin-bottom: 20rem;
-    border-width: 1rem;
+    width: 1050px;
+    height: 26px;
+    margin-bottom: 20px;
+    border-width: 1px;
     border-style: solid;
-    border-radius: 8rem;
+    border-radius: 8px;
     border-color: rgb(232, 232, 232);
     background-color: rgb(255, 255, 255);
-    padding-top: 20rem;
-    padding-bottom: 20rem;
-    padding-left: 24rem;
-    padding-right: 24rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: flex;
     justify-content: space-between;
 }
@@ -632,9 +629,9 @@ body{
 .explore-bar-title{
     font-weight: 400;
     color: rgb(28, 28, 28);
-    font-size: 20rem;
-    line-height: 26rem;
-    margin: 0rem;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px;
 }
 
 .footer{
@@ -644,12 +641,12 @@ body{
 }
 
 .footer-div{
-    width: 1100rem;
+    width: 1100px;
     height: auto;
-    padding-top: 48rem;
-    padding-bottom: 22rem;
-    padding-left: 209.6rem;
-    padding-right: 209.6rem;
+    padding-top: 48px;
+    padding-bottom: 22px;
+    padding-left: 209.6px;
+    padding-right: 209.6px;
     position: relative;
     justify-content: center;
 }
@@ -659,131 +656,131 @@ body{
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 40rem;
+    margin-bottom: 40px;
 }
 
 .language-region-selector{
-    height: 38.01rem;
+    height: 38.01px;
     width: auto;
     display: flex;
 }
 
 .region-selector{
-    border-width: 1rem;
+    border-width: 1px;
     border-color: rgb(181, 181, 181);
-    border-radius: 6rem;
+    border-radius: 6px;
     border-style: solid;
     width: fit-content;
     height: auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-right: 7rem;
-    padding-left: 7rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
     display: flex;
     align-items: center;
 }
 
 .language-selector{
-    margin-left: 26.01rem;
-    border-width: 1rem;
+    margin-left: 26.01px;
+    border-width: 1px;
     border-color: rgb(181, 181, 181);
-    border-radius: 6rem;
+    border-radius: 6px;
     border-style: solid;
     width: fit-content;
     height: auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-right: 7rem;
-    padding-left: 7rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
     display: flex;
     align-items: center;
 }
 
 .lang-reg-text{
-    font-size: 18rem;
-    line-height: 2rem;
+    font-size: 18px;
+    line-height: 2px;
     color: rgb(28, 28, 28);
-    margin: 2rem 5rem 0rem 8rem;
+    margin: 2px 5px 0px 8px;
     font-weight: 400;
 }
 
 .india{
     width:fit-content;
-    height: 18rem;
+    height: 18px;
 }
 
 .footer-sec-two{
     display: flex;
     flex: wrap;
     height: auto;
-    height: 186.4rem;
+    height: 186.4px;
     justify-content: space-between;
 }
 
 .about-zomato{
-    width: 201.663rem;
+    width: 201.663px;
     height: 100%;
 }
 
 .zomaverse{
-    width: 210.825rem;
+    width: 210.825px;
     height: 100%;
 }
 
 .rest-entri-help{
-    width: 275rem;
+    width: 275px;
     height: 100%;
 }
 
 .learn-more{
-    width: 183.325rem;
+    width: 183.325px;
     height: 100%;
 }
 
 .social-links{
-    width: 201.663rem;
+    width: 201.663px;
     height: 100%;
 }
 
 .footer-headings{
-    font-size: 14rem;
-    letter-spacing: 2rem;
+    font-size: 14px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 500;
-    margin: 0rem 0rem 12rem;
+    margin: 0px 0px 12px;
 }
 
 .footer-topics{
-    font-size: 14rem;
-    line-height: 21rem;
+    font-size: 14px;
+    line-height: 21px;
     color: rgb(105, 105, 105);
-    margin: 5rem 0rem;
+    margin: 5px 0px;
 }
 
 .social-buttons{
     display: flex;
-    margin-bottom: 12rem;
+    margin-bottom: 12px;
 }
 
 .icons{
-    margin-right: 8rem;
+    margin-right: 8px;
 }
 
 .app-download-buttons{
-    margin-top: 12rem;
+    margin-top: 12px;
     height: 100%;
-    width: 137rem;
+    width: 137px;
 }
 
 .store-buttons{
-    margin-top: 12rem;
+    margin-top: 12px;
     height: fit-content;
     width: 100%;
 }
 
 .terms-of-service{
-    font-size: 13rem;
+    font-size: 13px;
     color: rgb(79, 79, 79);
-    line-height: 17rem;
-    margin-top: 23rem;
+    line-height: 17px;
+    margin-top: 23px;
 }
